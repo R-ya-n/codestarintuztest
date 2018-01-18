@@ -1,0 +1,7 @@
+<?php
+
+function rhythm_sub_preprocess_breadcrumb(&$variables) {
+    if (($node = \Drupal::routeMatch()->getParameter('node')) && $variables['breadcrumb']) {
+        $variables['#cache']['contexts'][] = 'url.path';
+    }
+}

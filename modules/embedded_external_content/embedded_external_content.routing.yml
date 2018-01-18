@@ -1,0 +1,7 @@
+embedded_external_content.content:
+  path: '/embedded'
+  defaults:
+    _controller: '\Drupal\embedded_external_content\Controller\EventsController::content'
+    _title: 'Events'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,17 @@
+name: Rhythm Sub-Theme
+type: theme
+description: Rhythm is Responsive Drupal 7 Theme.
+core: 8.x
+base theme: rhythm
+regions:
+  header: Header
+  page_top: 'Page Top'
+  content: Content
+  sidebar: Sidebar
+  content_full: 'Content Full Width'
+  page_bottom: 'Page Bottom'
+  footer: Footer
+
+libraries:
+  - rhythm_sub/global-styling
+  - rhythm_sub/bootstrap-toggle

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+    <title>The Institute of Physics blog</title>
+    <atom:link href="http://www.iopblog.org/feed/" rel="self" type="application/rss+xml" />
+    <link>http://www.iopblog.org</link>
+    <description>News and opinion from the IOP</description>
+    <lastBuildDate>Mon, 17 Apr 2017 10:44:34 +0000</lastBuildDate>
+    <language>en-GB</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.7.3</generator>
+
+    <item>
+        <title>The Advanced LIGO (aLIGO) Project – Direct detection of Gravitational Waves</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Angus Bell & Chris Messenger]]></dc:creator>
+        <category><![CDATA[Astroparticle Physics Group]]></category>
+        <description><![CDATA[In the previous edition of the APP newsletter (January 2014), an article described how work on several Gravitational Wave detectors around the world was underway, increasing their sensitivity to a level where the detection of some event would become likely, rather than improbable as had been the case previously.]]></description>
+    </item>
+    
+    <item>
+        <title>Dark Matter Update</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Kathryn Boast]]></dc:creator>
+        <category><![CDATA[Astroparticle Physics Group]]></category>
+        <description><![CDATA[2016 has seen the final run of the Large Underground Xenon (LUX) experiment, based in the Sanford Underground Research Facility in South Dakota, USA. LUX is a dualphase xenon time projection chamber (TPC) with a 250 kg xenon target, and has produced the most sensitive limits on spin-independent WIMP-nucleon scattering for intermediate and heavy WIMPs.]]></description>
+    </item>
+
+    <item>
+        <title>Deep Science @ Boulby</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Sean Paling]]></dc:creator>
+        <category><![CDATA[Astroparticle Physics Group]]></category>
+        <description><![CDATA[News of the new underground laboratory at Boulby Mine to host the growing range of UK deep underground science studies. In the last few days of 2016 finishing touches are being made to complete STFC's new deep underground science laboratory, 1.1 km below ground at Boulby mine in the North East of England.]]></description>
+    </item>
+
+    <item>
+        <title>Polarization curling in a multiferroic tunnel junction</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[J.J.P.Peters]]></dc:creator>
+        <category><![CDATA[Electron Microscopy and Analysis Group]]></category>
+        <description><![CDATA[The pursuit of ever denser, smaller electronic devices has been recently fuelled by the discovery of ferroelectricity in thin films as thin as 3 unit cells (~1.2 nm). By placing such an ultrathin ferroelectric film between two asymmetric electrodes, a tunnel current is found to have an on and off state depending on the ferroelectric's polarisation direction. Such a configuration shows great promise as a non-volatile memory device.]]></description>
+    </item>
+
+    <item>
+        <title>York-JEOL Workshop on Future Technologies in Electron Microscopy, University of York</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Prof. Jun Yuan]]></dc:creator>
+        <category><![CDATA[Electron Microscopy and Analysis Group]]></category>
+        <description><![CDATA[A workshop was held on 12th and 13th of September at the York-JEOL Nanocentre, celebrating the development of electron microscopy research in York and the UK in general and also the long-term collaboration between the University of York, a centre for advanced electron microscopy technical development and applications in physics, chemistry, materials science and biomaterials and JEOL, one of the leading international electron microscopy suppliers.]]></description>
+    </item>
+    
+    <item>
+        <title>APPLY FOR IoP RESEARCH STUDENTS CONFERENCE FUND</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Prof. Jun Yuan]]></dc:creator>
+        <category><![CDATA[Electron Microscopy and Analysis Group]]></category>
+        <description><![CDATA[If you are a student member and are looking for funding to attend a meeting or conference, please apply for an RSCF bursary, which may give you up to £300 towards your costs. We have several of these bursaries to give away each year]]></description>
+    </item>
+    
+
+    <item>
+        <title>Particle Accelerators for Humanity</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Dr Suzie Sheehy]]></dc:creator>
+        <category><![CDATA[High Energy Particle Physics Group]]></category>
+        <description><![CDATA[I was recently honored to receive the IoP HEPP group 'Science in Society' prize for my work in public engagement with particle accelerators and particle physics. Particle accelerators are frequently viewed as just tools of the trade in the High Energy Physics community, but in fact their application reach is vast, from cancer treatment and radioisotope production, to removing pathogens from food and medical products, to industrial processing and potential future energy sources.]]></description>
+    </item>
+
+    <item>
+        <title>Putting the LHC on the map for dark matter</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Dr Sarah Malik]]></dc:creator>
+        <category><![CDATA[High Energy Particle Physics Group]]></category>
+        <description><![CDATA[There is mounting evidence from numerous astrophysical measurements that a dominant fraction of the matter density in the Universe is non-luminous. The latest results from the Planck experiment show that this 'dark matter' comprises 26% of the matter-energy content of theUniverse.]]></description>
+    </item>
+
+    <item>
+        <title>This Year's IoP Half Day Workshops</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Dr Sarah Malik]]></dc:creator>
+        <category><![CDATA[High Energy Particle Physics Group]]></category>
+        <description><![CDATA[The IOP HEPP committee has funding available for half day meetings on any topic of interest to the HEP community in the UK. We have had many interesting and fruitful meetings on topics including Higgs Physics, LHC extensions, Neutrinoless Double Beta Decay, Status and Prospects, The future of Long Baseline Neutrino Oscillation Experiments, Dark Matter, Neutrino Interaction Physics, Gravitational Waves, Exotic hadrons spectroscopy, Exotic phenomena in neutrino physics and many more.]]></description>
+    </item>
+
+    <item>
+        <title>Materials used in Extreme and Hazardous Environments</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Paul Binks, Amec Foster Wheeler]]></dc:creator>
+        <category><![CDATA[Materials and Characterisation Group]]></category>
+        <description><![CDATA[To start off my first newsletter nice and simply, I will be reporting on something I know about. This is a new section in the group newsletter which will highlight current activities within the industry and academia focusing on materials that experience extreme and hazardous environments. It aims to bind together advanced materials research with industrial or commercial needs. The first report will focus on the effect of neutrons on materials present inside the reactor core of a Pressurized Water Reactor (PWR).]]></description>
+    </item>
+
+    <item>
+        <title>Getting Chartered with the IOP</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[IOP]]></dc:creator>
+        <category><![CDATA[Materials and Characterisation Group]]></category>
+        <description><![CDATA[One of the many reasons why you may be a member of the IOP is the opportunity to gain professional designations by becoming a chartered Physicist (CPhys) or Engineer (CEng).]]></description>
+    </item>
+
+    <item>
+        <title>12th Photovoltaics Science, Applications &amp; Technology Conference (PVSAT-12)</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Dr Nigel B Mason, Conference Chair]]></dc:creator>
+        <category><![CDATA[Materials and Characterisation Group]]></category>
+        <description><![CDATA[Liverpool did us proud! For some years now, PVSAT has claimed to be the UK's premier scientific conference on solar PV and I feel we have again justified this claim on the occasion of PVSAT-12, our 12th annual event. As initiated at last year's event in Leeds, we again held a Postdoctoral Training Workshop on the day preceding the conference so that student delegates could attend both events and keep costs down.]]></description>
+    </item>
+
+
+
+    <item>
+        <title>EuPRAXIA — the First Year from a JAI Perspective</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Roman Walczak]]></dc:creator>
+        <category><![CDATA[Particle Accelerators and Beams Group]]></category>
+        <description><![CDATA[The EU project EuPRAXIA (European Plasma Research Accelerator with eXcellence In Applications) started on 1 November 2015. By the end of 2019, EuPRAXIA will produce a conceptual design report for the world’s first 5 GeV plasma-based electron accelerator with industrial beam quality and dedicated user areas]]></description>
+    </item>
+
+    <item>
+        <title>International Beam Instrumentation Conference</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Neven Blaskovic Kraljevic]]></dc:creator>
+        <category><![CDATA[Particle Accelerators and Beams Group]]></category>
+        <description><![CDATA[The International Beam Instrumentation Conference (IBIC) deals with the instruments and technology required to measure the properties of beams in particle accelerators. It brings together experts on both longitudinal and transverse beam diagnostics, and presents the commissioning of these devices at particle accelerators around the world.]]></description>
+    </item>
+
+    <item>
+        <title>HL-LHC-UK Launches!</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Neven Blaskovic Kraljevic]]></dc:creator>
+        <category><![CDATA[Particle Accelerators and Beams Group]]></category>
+        <description><![CDATA[The LHC is now operating extremely well and searching for its next success after the Higgs boson. At the same time a large international team is preparing for the upgrade to the machine's luminosity in the 2020s, known as HL-LHC. This will enable scientists to look for new, very rare fundamental particles, and to measure known particles like the Higgs boson with unprecedented accuracy.]]></description>
+    </item>    
+
+    <item>
+        <title>Ian Chapman takes over as CEO</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Roman Walczak]]></dc:creator>
+        <category><![CDATA[Plasma Physics Group]]></category>
+        <description><![CDATA[Professor Ian Chapman’s job as the new CEO of UKAEA and Head of Culham Centre for Fusion Energy officially started on 1 October after farewell events for his predecessor Steve Cowley. Steve Cowley has now taken up a post as President of Corpus Christi College, Oxford.]]></description>
+    </item>
+
+    <item>
+        <title>Successful JET operations</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Roman Walczak]]></dc:creator>
+        <category><![CDATA[Plasma Physics Group]]></category>
+        <description><![CDATA[The latest JET experiments, which came to an end on 15 November, have met all expectations – achieving the best results in the past five years of high power operation. The excellent machine reliability and routine high heating power (around 25 MW) in the experimental campaign was pleasing for the JET engineering team, and was also very good news for European fusion physicists. ]]></description>
+    </item>
+
+    <item>
+        <title>AWE's Orion facility update</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Roman Walczak]]></dc:creator>
+        <category><![CDATA[Plasma Physics Group]]></category>
+        <description><![CDATA[Orion, the multi-kilojoule, multi-petawatt laser plasma interaction facility situated at AWE, has recently upgraded its ultra-high power capability. The 720mm diameter 2ω off-axis parabola has been installed in the target chamber within Orion. This optic is the final component in the 2ω upgrade programme, a project to double the available energy in this high-contrast mode of operation, from 100J to 200J delivering up to 400TW of power to target. The previous 2ω beam was limited to a 300mm diameter because of the size of available frequency doubling KDP crystal.]]></description>
+    </item>
+
+    <item>
+        <title>Polymer Physics 2016 Gordon Research Conference</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Roman Walczak]]></dc:creator>
+        <category><![CDATA[Polymer Physics Group]]></category>
+        <description><![CDATA[The Gordon Research Conference (GRC) Polymer Physics 2016 was an exciting scientific gathering which focused on "the latest research in both neat polymers (crystallization and crystalline polymers; segmental, chain, and ion dynamics; confined polymers) and hybrid polymer-based materials (polymer-polymer phase behaviour; structured polymer conductors; block copolymer thin films; nanocomposites; ionomers)."]]></description>
+    </item>
+
+    <item>
+        <title>Materials Research Society</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Roman Walczak]]></dc:creator>
+        <category><![CDATA[Polymer Physics Group]]></category>
+        <description><![CDATA[Scientific conferences are a great way for graduate students and researchers alike to get the latest updates on the research in their field and network with their peers and the best brains in the field.]]></description>
+    </item>
+
+
+    <item>
+        <title>Symposium Celebrating the Life and Work of Prof Alexei Likhtman</title>
+        <link>#</link>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Roman Walczak]]></dc:creator>
+        <category><![CDATA[Polymer Physics Group]]></category>
+        <description><![CDATA["The Science of Alexei Likhtman" Symposium, which was held at the University of Reading on December 13, 2016, was a truly memorable and distinctive event. The programme consisted of a series of 13 highquality presentations from renowned speakers.]]></description>
+    </item>
+
+
+    <item>
+        <title>REFlections on research excellence</title>
+        <link>http://www.iopblog.org/reflections-on-research-excellence/</link>
+        <comments>http://www.iopblog.org/reflections-on-research-excellence/#respond</comments>
+        <pubDate>Mon, 17 Apr 2017 10:44:34 +0000</pubDate>
+        <dc:creator><![CDATA[Daniel Lee]]></dc:creator>
+        <category><![CDATA[News and opinion]]></category>
+        <category><![CDATA[Advocacy]]></category>
+        <category><![CDATA[Discovery]]></category>
+        <category><![CDATA[Policy]]></category>
+        <category><![CDATA[Research]]></category>
+        <category><![CDATA[Society]]></category>
+        <guid isPermaLink="false">http://www.iopblog.org/?p=17152</guid>
+        <description><![CDATA[The Research Excellence Framework is a huge undertaking – but not everyone is a fan]]></description>
+        <wfw:commentRss>http://www.iopblog.org/reflections-on-research-excellence/feed/</wfw:commentRss>
+        <slash:comments>0</slash:comments>
+    </item>
+    
+    
+    <item>
+        <title>How might Brexit affect large facilities?</title>
+        <link>http://www.iopblog.org/how-might-brexit-affect-large-facilities/</link>
+        <comments>http://www.iopblog.org/how-might-brexit-affect-large-facilities/#respond</comments>
+        <pubDate>Thu, 13 Apr 2017 11:06:06 +0000</pubDate>
+        <dc:creator><![CDATA[Florence Greatrix]]></dc:creator>
+        <category><![CDATA[News and opinion]]></category>
+        <category><![CDATA[Advocacy]]></category>
+        <category><![CDATA[Brexit]]></category>
+        <category><![CDATA[Discovery]]></category>
+        <category><![CDATA[Policy]]></category>
+        <category><![CDATA[Research]]></category>
+        <category><![CDATA[Society]]></category>
+        <guid isPermaLink="false">http://www.iopblog.org/?p=17132</guid>
+        <description><![CDATA[Shared research facilities are vital to UK physics]]></description>
+        <wfw:commentRss>http://www.iopblog.org/how-might-brexit-affect-large-facilities/feed/</wfw:commentRss>
+        <slash:comments>0</slash:comments>
+    </item>
+    <item>
+        <title>Awards nominations break records</title>
+        <link>http://www.iopblog.org/awards-nominations-break-records/</link>
+        <comments>http://www.iopblog.org/awards-nominations-break-records/#respond</comments>
+        <pubDate>Tue, 11 Apr 2017 09:10:32 +0000</pubDate>
+        <dc:creator><![CDATA[Christopher White]]></dc:creator>
+        <category><![CDATA[IOP life]]></category>
+        <category><![CDATA[Community]]></category>
+        <category><![CDATA[IOP Awards]]></category>
+        <guid isPermaLink="false">http://www.iopblog.org/?p=17121</guid>
+        <description><![CDATA[This year the physics community has rallied like never before to celebrate excellence among its own]]></description>
+        <wfw:commentRss>http://www.iopblog.org/awards-nominations-break-records/feed/</wfw:commentRss>
+        <slash:comments>0</slash:comments>
+        </item>
+        <item>
+        <title>Contemplating the role of physics in the Welsh economy</title>
+        <link>http://www.iopblog.org/contemplating-the-role-of-physics-in-the-welsh-economy/</link>
+        <comments>http://www.iopblog.org/contemplating-the-role-of-physics-in-the-welsh-economy/#respond</comments>
+        <pubDate>Mon, 10 Apr 2017 14:42:57 +0000</pubDate>
+        <dc:creator><![CDATA[Alison McMillan]]></dc:creator>
+        <category><![CDATA[News and opinion]]></category>
+        <category><![CDATA[Advocacy]]></category>
+        <category><![CDATA[Community]]></category>
+        <category><![CDATA[Economy]]></category>
+        <category><![CDATA[Nations and regions]]></category>
+        <category><![CDATA[Physics in the Economy]]></category>
+        <category><![CDATA[Policy]]></category>
+        <category><![CDATA[Society]]></category>
+        <category><![CDATA[Wales]]></category>
+        <guid isPermaLink="false">http://www.iopblog.org/?p=17104</guid>
+        <description><![CDATA[The latest IOP report prompted questions on interconnected variables, measuring the measurements, and the role and value of physics leadership in the innovation economy]]></description>
+        <wfw:commentRss>http://www.iopblog.org/contemplating-the-role-of-physics-in-the-welsh-economy/feed/</wfw:commentRss>
+        <slash:comments>0</slash:comments>
+    </item>
+            <item>
+            <title>A tribute to Brenda Jennison, physicist, teacher and trainer</title>
+            <link>http://www.iopblog.org/a-tribute-to-brenda-jennison-physicist-teacher-and-trainer/</link>
+            <comments>http://www.iopblog.org/a-tribute-to-brenda-jennison-physicist-teacher-and-trainer/#comments</comments>
+            <pubDate>Tue, 04 Apr 2017 07:36:52 +0000</pubDate>
+            <dc:creator><![CDATA[Catherine Wilson]]></dc:creator>
+                            <category><![CDATA[News and opinion]]></category>
+            <category><![CDATA[Education]]></category>
+            <category><![CDATA[Teaching]]></category>
+
+            <guid isPermaLink="false">http://www.iopblog.org/?p=17080</guid>
+            <description><![CDATA[Catherine Wilson MBE gives her personal reflections on an enormously influential educator]]></description>
+            <wfw:commentRss>http://www.iopblog.org/a-tribute-to-brenda-jennison-physicist-teacher-and-trainer/feed/</wfw:commentRss>
+            <slash:comments>1</slash:comments>
+            </item>
+    </channel>
+</rss>

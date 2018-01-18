@@ -1,0 +1,6 @@
+name: Embedded external content
+description: 'Module that enables us to embed content from other sites, typically via a webservice'
+package: Custom
+type: module
+version: 1.0
+core: 8.x

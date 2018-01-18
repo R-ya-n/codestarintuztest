@@ -1,0 +1,2235 @@
+.text h1{
+color:#21305b;
+}
+
+a{
+color:#ff005a;
+text-decoration:underline;
+}
+
+.btn a:hover{
+text-decoration:underline !important;
+}
+
+.nav-logo-wrap .logo
+{
+max-width:300px;
+}
+
+.mobile-nav, .desktop-nav{
+ display:none;
+ visibility:hidden;
+}
+
+#block-rhythm-sub-breadcrumbs{
+margin-top:1em;
+}
+
+.btn-pink{
+background-color:#ff005a !important;
+font-weight:bold !important;
+}
+
+.toggle-groupxx{
+padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; font-size:larger;margin-right:1em;
+}
+
+
+/* ==========================================================================
+   Discovery Page Copied from http://iop-events-live.eu-west-2.elasticbeanstalk.com/css/main.css
+   ========================================================================== */
+
+.dp_pageContainer {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 1024px;
+    z-index: 1;
+    padding-top: 24px;
+}
+
+
+/* Event cards 
+Copied from http://iop-events-live.eu-west-2.elasticbeanstalk.com/css/main.css
+*/
+
+.dp_eventCard {
+    width: calc(100% - 26px);
+    height: calc(41vw + 115px);
+    margin: 6px 12px;
+    background-color: #ffffff;
+    border: solid 1px #DDE4F0;
+    display: block;
+    transition: none;
+}
+
+.dp_eventCardImage {
+    width: 100%;
+    height: calc(41vw - 24px);
+    display: block;
+    float: left;
+    object-fit: cover;
+}
+
+.dp_eventCardContent {
+    width: calc(100% - 24px);
+    float: left;
+    display: block;
+    margin: 12px 12px 0 12px;
+    overflow: hidden;
+}
+
+.dp_eventCardDateTime {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.938em;
+    color: #A4B0BF;
+    letter-spacing: -0.00625em;
+    width: 50%;
+    float: left;
+    display: block;
+    margin-bottom: 6px;
+    height: 22px;
+    overflow: hidden;
+    white-space: no-wrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+}
+
+.dp_eventCardShortLocation {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.938em;
+    color: #A4B0BF;
+    letter-spacing: -0.00625em;
+    width: 50%;
+    float: left;
+    display: block;
+    text-align: right;
+    margin-bottom: 6px;
+    height: 22px;
+    overflow: hidden;
+    white-space: no-wrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+}
+
+.dp_eventCardTitle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1.125em;
+    color: #002B63;
+    letter-spacing: -0.00625em;
+    line-height: 1.188em;
+    width: 100%;
+    height: 63px;
+    margin-bottom: 6px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    white-space: no-wrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+}
+
+
+.dp_eventCardTagContainer {
+    width: calc(100% - 24px);
+    float: left;
+    display: block;
+    height: 24px;
+    overflow: hidden;
+    white-space: no-wrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    margin: 0 12px;
+}
+
+.dp_eventCardTag {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.938em;
+    color: #A4B0BF;
+    letter-spacing: -0.00625em;
+    float: left;
+    display: block;
+    margin-right: 8px;
+    overflow: hidden;
+    /*cursor: pointer;*/
+}
+
+.dp_eventCardTag:hover {
+    text-decoration: none;
+}
+
+.dp_eventCardTag:active {
+    text-decoration: none;
+    color: #A4B0BF;
+}
+
+.ep_bodytext {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.375em;
+    margin: 0 12px 0 12px;
+    color: rgba(0, 43, 99, 90);
+}
+
+
+@media only screen and (min-width: 599px) {
+    .dp_eventCard {
+        width: calc(100% - 26px);
+        height: 156px;
+
+    }
+
+    .dp_eventCardImage {
+        width: 254px;
+        height: 100%;
+    }
+
+    .dp_eventCardContent {
+        width: calc(100% - 278px);
+    }
+
+    .dp_eventCardTagContainer {
+        width: calc(100% - 278px);
+    }
+
+    .dp_eventCardTitle {
+        height: 77px;
+    }
+}
+
+
+@media only screen and (min-width: 767px) {
+        /* Discovery Page */
+
+    .dp_iopEventLogo {
+        width: 366px;
+        height: 120px;
+    }
+
+    .dp_inputFieldCont {
+        width: 640px;
+    }
+
+    .dp_tabSwitcherul {
+        width: 320px;
+
+    }
+
+    .dp_tabSwitcherli {
+        width: 160px;
+    }
+
+    .dp_resultsTimeLabel {
+        font-size: 1.75em;
+        line-height: 56px;
+    }
+
+    .dp_eventCard {
+        width: calc(100% - 26px);
+        height: 156px;
+
+    }
+
+    .dp_eventCardImage {
+        width: 372px!important;
+        height: 100%!important;
+    }
+
+    .dp_eventCardContent {
+        width: calc(100% - 396px)!important;
+    }
+
+    .dp_eventCardDateTime {
+        font-size: 1em;
+        width: 40%;
+    }
+
+    .dp_eventCardShortLocation {
+        font-size: 1em;
+        width: 60%;
+    }
+
+    .dp_eventCardTitle {
+        font-size: 1.25em;
+        line-height: 1.25em;
+        height: 77px;
+    }
+
+    .dp_eventCardTagContainer {
+        width: calc(100% - 396px)!important;
+    }
+
+    .dp_eventCardTag {
+        font-size: 1em;
+    }
+    
+    .ep_bodytext {
+        margin: 0 24px 0 24px;
+    }
+}
+
+#block-managegroups, #views-exposed-form-yet-another-testing-page-1 {
+    background: #dde4f0;
+    padding: 1em;
+}
+
+.group{
+    margin-bottom:1em;
+}
+
+.group .grouptag{
+    clear:both;
+    float:left;
+    margin-bottom:1em;
+}
+.group .grouptag span {
+    /*
+    color: #fff;
+    background: #00CAD4;
+    padding:0.1em;
+    margin: 0.2em;
+    border-radius: 2px;
+    display: inline-block;
+    clear: both;
+    text-decoration:none;
+    font-weight:600;
+    font-size:0.80em;
+    */
+    white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+    white-space: -webkit-pre-wrap; /*Chrome & Safari */ 
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    white-space: pre-wrap;       /* css-3 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    word-break: break-all;
+    white-space: normal;
+    
+    font-familyxx: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size:1em;
+    line-height: 1.375em;
+    color: #828C99;
+    float: left;
+    display: block;
+    margin-right: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    letter-spacing: -0.00625em;
+}
+
+.group .views-field-title h3 {
+    line-height:0.5em !important;
+    text-transform: uppercase;
+    margin:0px;
+    margin-bottom:0.2em;
+    margin-top:0.2em;
+}
+
+.group .views-field-title h3 a{
+    font-size:small;
+    text-decoration:none !important;
+    margin-bottom: 1em;
+    font-weight:600;
+    
+    font-familyxx: NunitoSans-ExtraBold;
+    font-size: 18px;
+    color: #002B63;
+    letter-spacing: -0.09px;
+    line-height: 23px;
+}
+
+.group .readmore{
+    /* Rectangle 3: */
+    background: #FD035C;
+    border: 2px solid #FD035C;
+    border-radius: 4px;
+    /* Invite Friends: */
+    font-familyxx: AvenirNext-DemiBold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    clear:both;
+    float:left;
+}
+
+.group .readmore a{
+    /* Rectangle 3: */
+    background: #FD035C;
+    border: 2px solid #FD035C;
+    border-radius: 4px;
+    /* Invite Friends: */
+    font-familyxx: AvenirNext-DemiBold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+.group .views-field-field-synopsis p{
+    margin-bottom:1em;
+    padding:0px;
+}
+
+.views-exposed-form{
+    background-color:#DDE4F0;
+    padding:2em;
+    margin-bottom:2em;
+    margin-top:2em;
+    margin-right:2em;
+}
+
+.views-exposed-form label{
+    font-weight:600;
+}
+
+.views-exposed-form .btn-medium{
+    background: #FD035C;
+    border: 2px solid #FD035C;
+    border-radius: 4px;
+    /* Invite Friends: */
+    font-familyxx: AvenirNext-DemiBold;
+    font-sizex: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+
+h4{
+    margin:2em;
+    padding:1em;
+    font-family:inherit !important;
+}
+
+.mb-70{
+    margin:0px;
+}
+
+
+#block-managegroups{
+    margin-top:2em;
+    margin-bottom:2em;
+}
+
+
+
+
+
+
+
+
+
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #D8E3F2;
+    margin: 1em 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* ==========================================================================
+   Global
+   ========================================================================== */
+
+/* Page structure */
+
+html, body {
+    overflow-xxx: hidden; 
+}
+
+body {
+    background: #F5F7F9;
+}
+
+.navBar {
+    width: 100%;
+    height: 44px;
+    background: #ffffff;
+    border-bottom: solid 1px #D8E3F2;
+    position: fixed;
+    z-index: 100; 
+    top: 0;
+    left: 0;
+    clear: both;
+}
+
+.iopLogo {
+    width: 220px;
+    height: 24px;
+    margin: 12px 12px 8px 12px;
+    display: none;
+    cursor: pointer;
+}
+
+.iopLogoMobile {
+    width: 42px;
+    height: 20px;
+    margin: 12px 12px 12px 12px;
+    display: block;
+    cursor: pointer;
+}
+
+.navLinks {
+    height: 44px;
+    top: 0;
+    right: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 101;
+}
+
+
+.navLinksli {
+    list-style-type: none;
+    float: left;
+    display: block;
+}
+
+.navMenuIcon {
+    margin: 0 0 0 8px;
+    padding: 6px 3px 6px 3px;
+    color: #828C99;
+}
+
+li a {
+    height: 44px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 44px;
+    color: #828C99;
+    background: none;
+    border: none;
+    padding: 0 12px 0 12px;
+    text-decoration: none;
+    transition: none;
+    display: block;
+    cursor: pointer;
+    z-index: 200!important;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #FD035C;
+    text-decoration: none;
+}
+
+li a:active {
+    font-weight: 700;
+    color: #ffffff;
+    background: #FD035C;
+    height: 45px;
+}
+
+.selectedNav {
+    font-weight: 700;
+    color: #ffffff;
+    background: #FD035C;
+    height: 45px;
+}
+
+.selectedNav:hover {
+    color: #FFCAD9!important;
+}
+
+.selectedNav:focus {
+    outline: none;
+    border: solid 2px #FE8CAC;
+    padding: 0 10px 0 10px;
+    line-height: 40px;
+    height: 41px;
+}
+
+li a:focus {
+    outline: none;
+    border: solid 2px #FD035C;
+    padding: 0 10px 0 10px;
+    line-height: 40px;
+    height: 41px;
+}
+
+.hamburgerMenu {
+    width: 160px;
+    background-color: #ffffff;
+    top: 0;
+    right: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 200!important;
+    box-shadow: 0 0 6px 0 rgba(0,42,99,0.24);
+    transition: all 0.1s ease 0s;
+    visibility: hidden;
+}
+
+.hamburgerMenuTitle {
+    border-bottom: solid 1px #D8E3F2;
+    width: 160px!important;
+    color: #FD035C;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hamburgerCloseIcon {
+    margin: 10px 18px 0 0;
+    padding: 5px 5px 5px 5px;
+    color: #828C99;
+    float: right;
+}
+
+.hamburgerMenuLinks {
+    width: 160px!important;
+}
+
+.hamburgerMenuHR {
+    margin: 0!important;
+}
+
+/* Beta Label */
+
+.betaBanner {
+    width: 100%;
+    height: 44px;
+    background-color: #008FB9;
+    margin-top: 44px;
+    padding: 4px 0px;
+    position: relative;
+    z-index: 10;
+    clear: both;
+}
+
+.betaBannerCopy {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.9375em;
+    line-height: 24px;
+    margin: 0 auto;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+
+.betaBannerLink {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.9375em;
+    line-height: 20px;
+    color: #94FBFF;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.betaBannerLink:hover {
+    color: #94FBFF;
+    text-decoration: underline;
+}
+
+.betaBannerLinkIcon {
+    margin: 0 0 1px 6px;
+}
+
+/* Feedback banner */
+
+.feedbackBanner {
+    width: 100vw;
+    background-color: #008FB9;
+    z-index: 3;
+    height: 64px;
+    z-index: 10;
+    position: relative;
+    clear: both;
+}
+
+.feedbackBannerLeft {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #FFFFFF;
+    width: calc(100% - 24px);
+    display: block;
+    float:left;
+    line-height: 24px;
+    margin: 8px 12px 0 12px;
+}
+
+.feedbackBannerRight {
+    width: calc(100% - 24px);
+    display: block;
+    float:left;
+    line-height: 24px;
+    margin: 0 12px 8px 12px;
+}
+
+.feedbackBannerLinks {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: #94FBFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Feedback Form */
+
+form {margin: 0;}
+
+.feedbackForm {
+    margin: 0 auto;
+    display: none;
+    width: calc(100% - 4px);
+    max-width: 1022px;
+    background-color: #ffffff;
+    border: solid 2px #008FB9;
+    margin-bottom:-2px;
+    z-index: 10;
+    position: relative;
+    clear: both;
+}
+
+.feedbackFormHeader {
+    height: 36px;
+    background-color: #008FB9;
+    width: 100%;
+    margin-top: -2px;
+}
+
+.feedbackFormClose {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: #94FBFF;
+    float: right;
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin: 7px 8px;
+}
+.feedbackFormCloseIcon {
+    margin: -2px 0 0 6px;
+}
+
+.feedbackFormTitles {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    color: #828C99;
+    margin: 18px 12px 4px 12px;
+}
+
+.feedbackInput {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    border: solid 1px #A4B0BF;
+    border-radius: 4px;
+    width: calc(100% - 18px);
+    min-height: 38px;
+    padding: 0 8px;
+    margin: 4px 12px 0px 12px;
+}
+
+.feedbackFormRadioLabels {
+    margin: 0 24px 0 8px;
+}
+
+.feedbackDescValidationError {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.8125em;
+    color: #FD035C;
+    line-height: 1em;
+    margin: 0 12px 4px 12px;
+}
+
+.redAstrix {
+    color: #FD035C;
+}
+
+.feedbackSendButton {
+    background: #ffffff;
+    color: #FD035C;
+    border-radius: 4px;
+    border: solid 2px #FD035C;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    height: 40px;
+    width: calc(100% - 24px);
+    margin: 24px 12px;
+    transition: all 0.3s ease 0s;
+    display: block;
+}
+
+.feedbackSendButton:hover {
+    background: #FD035C;
+    color: #ffffff;
+}
+
+.feedbackSendButton:active {
+    background: #FF3963;
+    color: #ffffff;
+}
+
+.feedbackConfirm {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    color: #002B63;
+    line-height: 1.4em;
+    text-align: center;
+    margin: 186px 12px;
+    display: none;
+}
+
+/* Footer */
+
+.footer {
+    width: calc(100vw - 24px);
+    text-align: center;
+    border-top: solid 1px #D8E3F2;
+    padding: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #D8E3F2;
+    line-height: 1.625em;
+    z-index: 10;
+    position: relative;
+    background-color: #F5F7F9;
+    clear: both;
+}
+
+.footer a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footerSmallPrint {
+    width: 100%;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.8125em;
+    color: #828C99;
+    line-height: 1.5em;
+    margin: 12px 0;
+    display: block;
+}
+
+/* Text Styles */
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    color: #002B63;
+    line-height: 2.5em;
+}
+
+h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+    line-height: 1.25em;
+    margin: 0 12px 0 12px;
+    padding: 24px 0 24px 0;
+    color: #002B63;
+}
+
+h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    line-height: 1.25em;
+    margin: 0 12px 0 12px;
+    padding: 4px 0 12px 0;
+    color: #002B63;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.375em;
+    color: #002B63;
+    padding: 0px 0 12px 0;
+    opacity: 0.9;
+    margin: 0;
+}
+
+h5 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    line-height: 1.25em;
+    color: #A0ACBB;
+    text-transform: uppercase;
+    padding: 0px 0 12px 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    color: rgba(0, 43, 99, 90)!important;
+    opacity: 0.9;
+    padding: 0px 0 12px 0;
+}
+
+a {
+    font-weight: 600;
+    margin: 0;
+    color: #00ABB2;
+    transition: all 0.3s ease 0s;
+    overflow-wrap: break-word; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #00CFD8;
+}
+
+/* Show/Hide CSS */
+
+.hideOnMobile {
+    display: none;
+}
+
+.showOnMobile {
+    display: block;
+}
+
+/* ==========================================================================
+   EventPage
+   ========================================================================== */
+
+.ep_eventContainer {
+    position: relative;
+    background-color: #ffffff;
+    height: inherit;
+    margin: 0;
+    width: 100%;
+    max-width: 1024px;
+    z-index: 1;
+    border-left: none;
+    border-right: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    clear: both;
+}
+
+.ep_leftColumn {
+    background-color: #ffffff;
+    width: 100%;
+    float:left;
+}
+
+.ep_rightColumn {
+    background-color: #ffffff;
+    width: 100%;
+    float:left;
+    border-left: none;
+    border-bottom: none;
+}
+
+.ep_bottomPadding {
+    height: 24px;
+    width: 100%;
+    float: left;
+}
+
+.ep_inviteButton {
+    background: #ffffff;
+    color: #FD035C;
+    border-radius: 4px;
+    border: solid 2px #FD035C;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    height: 40px;
+    width: calc(100vw - 24px);
+    margin: 0 12px 12px 12px;
+    transition: all 0.3s ease 0s;
+}
+
+.ep_inviteButton:hover {
+    background: #FD035C;
+    color: #ffffff;
+}
+
+.ep_inviteButton:active {
+    background: #FF3963;
+    color: #ffffff;
+}
+
+.ep_backEventsButton {
+    position: fixed;
+    left: 12px;
+    top: 108px;
+    height: 28px;
+    background-color: #ffffff;
+    border: solid 1px #D8E3F2;
+    border-radius: 4px;
+    z-index: 10;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: #FD035C;
+    line-height: 28px;
+    margin: 0;
+    padding: 0 6px;
+    cursor: pointer;
+    transition: all 0.0s ease 0s;
+    text-decoration: none;
+}
+
+.ep_backEventsButton:hover {
+    border: solid 2px #FD035C;
+    text-decoration: none;
+    height: 26px;
+    margin: -1px 0 0 -1px;
+}
+
+.ep_backEventsButton:active {
+    border: solid 2px #FD035C;
+    text-decoration: none;
+    color: #FD035C;
+    height: 26px;
+    margin: -1px 0 0 -1px;
+}
+
+.ep_backEventsButton:active {
+    border: solid 2px #FD035C;
+    text-decoration: none;
+    height: 26px;
+}
+
+.ep_backEventsIcon {
+    margin: -2px 6px 0 0;
+}
+
+/* Content Styling */
+
+.ep_headerImage {
+    width: 100%;
+    height: calc(100vw * 0.417);
+    max-height: 427px;
+    object-fit: cover;
+}
+
+.ep_timeIcon {
+    padding: 2px 14px 2px 2px;
+    float: left;
+}
+
+.ep_locationIcon {
+    padding: 2px 17px 2px 5px;
+}
+
+.ep_suitableIcon {
+    padding: 3px 13px 3px 1px;
+    float: left;
+}
+
+.ep_tagIcon {
+    padding: 2px 14px 2px 2px;
+    float: left;
+}
+
+.ep_locationMap {
+    border: none;
+    width: 100%;
+    height: 75vw;
+    margin: 14px 0 24px 0;
+}
+
+.ep_noMap {
+    height: 24px;
+}
+
+.ep_locationCopyFix {
+    margin: -24px 0 0 36px;
+}
+
+.ep_eventTitle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+    line-height: 1.25em;
+    margin: 0 12px 0 12px;
+    padding: 24px 0 24px 0;
+    color: #002B63;
+}
+
+.ep_bodytext {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.375em;
+    margin: 0 12px 0 12px;
+    color: rgba(0, 43, 99, 90);
+}
+
+
+.ep_dateLocationStyle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.375em;
+    color: #828C99;
+    margin: 0px 12px 24px 12px;
+    float: left;
+    width: calc(100% - 24px);
+}
+
+.ep_dateLocationSidebarStyle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.375em;
+    color: #828C99;
+    margin: 0px 12px 24px 12px;
+    float: left;
+    width: calc(100% - 24px);
+}
+
+.ep_eventCardTagContainer {
+    float: left;
+    display: block;
+    white-space: no-wrap;
+    word-break: keep-all;
+    width: calc(100% - 36px);
+}
+
+.ep_eventCardTag {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.375em;
+    color: #828C99;
+    float: left;
+    display: block;
+    margin-right: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    letter-spacing: -0.00625em;
+}
+
+.ep_eventCardTag:hover {
+    text-decoration: underline;
+}
+
+.ep_eventCardTag:active {
+    text-decoration: underline;
+    color: #828C99;
+}
+
+.ep_copyLinkInput {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.375em;
+    margin: 0 12px 12px 12px;
+    padding: 0 8px;
+    color: #A0ACBB;
+    border-radius: 4px;
+    border: solid 1px #A0ACBB;
+    height: 38px;
+    width: calc(100vw - 24px);
+    text-overflow: ellipsis;
+}
+
+.ep_linkCopiedTag {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.875em;
+    line-height: 1.375em;
+    background-color: #FD035C;
+    color: #ffffff;
+    position: relative;
+    margin: -52px 0 29px 12px;
+    padding: 1px 1px 1px 1px;
+    border-radius: 4px;
+    text-align: center;
+    width: 90px;
+    display: none;
+}
+
+/* ==========================================================================
+   Discovery Page
+   ========================================================================== */
+
+.dp_pageContainer {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 1024px;
+    z-index: 1;
+    padding-top: 24px;
+}
+
+.dp_iopEventLogo {
+    width: 244px;
+    height: 80px;
+    margin: 0 auto 24px auto;
+    display: block;
+}
+
+.dp_inputFieldCont {
+    margin: 0 auto 12px auto;
+    display: block;
+    width: calc(100% - 24px);
+    height: 40px;
+    background-color: #ffffff;
+    border: solid 1px #A0ACBB;
+    border-radius: 4px;
+    padding: 0;
+}
+
+.dp_inputField {
+    background: none;
+    border: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 40px;
+    width: calc(100% - 56px);
+    height: 40px;
+    padding: 0 8px;
+}
+
+.dp_searchButton {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/ui_search_icon.svg);
+    background-repeat: no-repeat; 
+    background-position: 11px 11px;
+    background-color: #FD035C;
+    border-radius: 0 2px 2px 0;
+    border: none;
+    margin: 0;
+    float: right;
+}
+
+.dp_locationButton {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/ui_location_icon.svg);
+    background-repeat: no-repeat; 
+    background-position: 12px 10px;
+    background-color: rgba(0,0,0,0);
+    border-radius: 0 2px 2px 0;
+    border: none;
+    margin: 0;
+    float: right;
+}
+
+/* Tab switcher */
+
+.dp_tabSwitcher {
+    background-color: #ffffff;
+    width: 100vw;
+    border-top: solid 1px #D8E3F2;
+    border-bottom: solid 1px #D8E3F2;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    margin-top: 12px;
+}
+
+.dp_tabSwitcherul {
+    background: none;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+}
+
+.dp_tabSwitcherli {
+    display: inline-block;
+    position:relative;
+    height: 40px;
+    width: 50%;
+}
+
+.dp_tabSwitcherInput {
+    width: 1px;
+    height: 1px;
+    display: none;
+}
+
+.dp_tabSwitcherButtonTransparent {
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    visiblity:hidden;
+    border:none;
+    z-index:2;
+    background-color:transparent;
+    width:100%;
+}
+
+.dp_tabSwitcherButtonTransparent:hover ~ label {
+     color: #FD035C;
+ }
+
+.dp_tabSwitcherLabel {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 40px;
+    height: 40px;
+    color: #A4B0BF;
+    cursor: pointer;
+    height: 37px;
+    text-align: center;
+    border-bottom: none;
+    transition: all 0.2s ease 0s;
+    margin: 0 auto;
+    display: block;
+}
+
+.dp_tabSwitcherLabel:hover {
+    color: #FD035C;
+}
+
+.dp_tabSwitcherInput:checked + label {
+    color: #FD035C;
+    font-weight: 700;
+    border-bottom: solid 3px #FD035C;
+}
+
+div.dp_tabSwitcherli  > label {
+    position: relative;
+    display: block;
+}
+div.dp_tabSwitcherli  > label ~ input[type="radio"]{
+    position:relative;
+    z-index:1;
+}
+
+/* Results labels */
+
+.dp_showingResultsLabel {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.0625em;
+    line-height: 1.5em;
+    color: #A4B0BF;
+    letter-spacing: -0.00625em;
+    margin: 80px 12px 0 12px;
+}
+
+.dp_showingResultsLabelBold {
+     font-weight: 800;
+     letter-spacing: 0em;
+     margin-bottom: 6px;
+}
+
+.dp_resultsTimeLabel {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #002B63;
+    line-height: 44px;
+    width: calc(100% - 24px);
+    margin: 0 12px;
+    overflow: none;
+    text-overflow: ellipsis;
+}
+
+/* Event cards */
+
+.dp_eventCard {
+    width: calc(100% - 26px);
+    height: calc(41vw + 115px);
+    margin: 6px 12px;
+    background-color: #ffffff;
+    border: solid 1px #DDE4F0;
+    display: block;
+    transition: none;
+}
+
+.dp_eventCardImage {
+    width: 100%;
+    height: calc(41vw - 24px);
+    display: block;
+    float: left;
+    object-fit: cover;
+}
+
+.dp_eventCardContent {
+    width: calc(100% - 24px);
+    float: left;
+    display: block;
+    margin: 12px 12px 0 12px;
+    overflow: hidden;
+}
+
+.dp_eventCardDateTime {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.938em;
+    color: #A4B0BF;
+    letter-spacing: -0.00625em;
+    width: 50%;
+    float: left;
+    display: block;
+    margin-bottom: 6px;
+    height: 22px;
+    overflow: hidden;
+    white-space: no-wrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+}
+
+.dp_eventCardShortLocation {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.938em;
+    color: #A4B0BF;
+    letter-spacing: -0.00625em;
+    width: 50%;
+    float: left;
+    display: block;
+    text-align: right;
+    margin-bottom: 6px;
+    height: 22px;
+    overflow: hidden;
+    white-space: no-wrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+}
+
+.dp_eventCardTitle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1.125em;
+    color: #002B63;
+    letter-spacing: -0.00625em;
+    line-height: 1.188em;
+    width: 100%;
+    height: 63px;
+    margin-bottom: 6px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    white-space: no-wrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+}
+
+
+.dp_eventCardTagContainer {
+    width: calc(100% - 24px);
+    float: left;
+    display: block;
+    height: 24px;
+    overflow: hidden;
+    white-space: no-wrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    margin: 0 12px;
+}
+
+.dp_eventCardTag {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.938em;
+    color: #A4B0BF;
+    letter-spacing: -0.00625em;
+    float: left;
+    display: block;
+    margin-right: 8px;
+    overflow: hidden;
+    /*cursor: pointer;*/
+}
+
+.dp_eventCardTag:hover {
+    text-decoration: none;
+}
+
+.dp_eventCardTag:active {
+    text-decoration: none;
+    color: #A4B0BF;
+}
+
+
+/* No Results */
+
+.dp_noResults {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #828C99;
+    line-height: 1.25em;
+    margin: 48px auto;
+    padding: 0 12px;
+    width: calc(100% - 24px);
+    max-width: 380px;
+}
+
+.dp_noResultsLi {
+    padding-bottom: 4px;
+    white-space: no-wrap;
+    word-break: keep-all;
+}
+
+/* Paging controls */
+
+.dp_pagingControls {
+    margin: 18px auto 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.dp_pagingControlsPrev {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    font-size: 1em;
+    color: #FD035C;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.dp_pagingControlsPrev:active {color: #FD035C;}
+
+.dp_pagingControlsIcon {margin: -2px 6px 0 6px;}
+
+.dp_pagingControlsPage {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1em;
+    color: #A4B0BF;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.dp_pagingControlsPage:hover {
+    font-weight: 600;
+}
+
+.dp_pagingControlsPageActive {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    font-size: 1.0625em;
+    margin: 0 4px;
+    cursor: pointer;
+    font-weight: 700;
+    color: #FD035C!important;
+}
+
+
+.dp_pagingControlsPage:active {
+    font-weight: 700;
+    color: #FD035C;
+}
+
+.dp_pagingControlsNext {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    text-align: right;
+    font-size: 1em;
+    color: #FD035C;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.dp_pagingControlsNext:active {color: #FD035C;}
+
+/* Back to Top Button */
+
+.dp_backTopButton {
+    position: fixed;
+    right: 12px;
+    top: 56px;
+    height: 28px;
+    background-color: #ffffff;
+    border: solid 1px #D8E3F2;
+    border-radius: 4px;
+    z-index: 15;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: #FD035C;
+    line-height: 28px;
+    margin: 0;
+    padding: 0 6px;
+    cursor: pointer;
+    transition: all 0.0s ease 0s;
+    visibility: hidden;
+    opacity: 
+}
+
+.dp_backTopButton:hover {
+    border: solid 2px #FD035C;
+    text-decoration: none;
+    height: 26px;
+    margin: -1px -1px 0 0;
+}
+
+.dp_backTopButton:active {
+    border: solid 2px #FD035C;
+    text-decoration: none;
+    color: #FD035C;
+    height: 26px;
+    margin: -1px -1px 0 0;
+}
+
+.dp_backTopButton:active {
+    border: solid 2px #FD035C;
+    text-decoration: none;
+    height: 26px;
+}
+
+.dp_backTopIcon {
+    margin: -2px 5px 0 0;
+}
+
+/* ==========================================================================
+   404 & 500 Pages
+   ========================================================================== */
+
+.fof_container {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.fof_imgCont {
+    margin: 108px auto 24px auto;
+    width: 296px;
+    height: 141px;
+}
+
+.fof_img {
+    width: 296px;
+    height: 141px;
+}
+
+.fh_imgCont {
+    margin: 108px auto 24px auto;
+    width: 296px;
+    height: 232px;
+}
+
+.fh_img {
+    width: 296px;
+    height: 232px;
+}
+
+.fof_title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1.75em;
+    line-height: 1.25em;
+    margin: 0 12px 24px 12px;
+    color: #002B63;
+    text-align: center;
+}
+
+.fof_bodyCopy {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.375em;
+    margin: 0 12px 24px 12px;
+    color: rgba(0, 43, 99, 90);
+    text-align: center;
+}
+
+.fof_backButton {
+    background: #ffffff;
+    color: #FD035C;
+    border-radius: 4px;
+    border: solid 2px #FD035C;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    height: 40px;
+    width: calc(100vw - 24px);
+    margin: 0 auto 64px auto;
+    transition: all 0.3s ease 0s;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.fof_backButton:hover {
+    background: #FD035C;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.fof_backButton:active {
+    background: #FF3963;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 599px) {
+    .dp_eventCard {
+        width: calc(100% - 26px);
+        height: 156px;
+
+    }
+
+    .dp_eventCardImage {
+        width: 254px;
+        height: 100%;
+    }
+
+    .dp_eventCardContent {
+        width: calc(100% - 278px);
+    }
+
+    .dp_eventCardTagContainer {
+        width: calc(100% - 278px);
+    }
+
+    .dp_eventCardTitle {
+        height: 77px;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+
+    /* Global */
+
+    .hideOnMobile{
+        display: block;
+    }
+
+    .showOnMobile{
+        display: none;
+    }
+
+    .betaBanner {
+        width: 100%;
+        height: 32px;
+    }   
+
+    .betaBannerCopy {
+        line-height: 32px;
+        margin: 0 auto;
+        color: #ffffff;
+        text-align: center;
+        width: 100%;
+    }
+
+    .betaBannerLink {
+        line-height: 40px;
+        color: #94FBFF;
+        margin: -36px 12px 0 0;
+        display: block;
+        float: right;
+        text-align: right;
+        width: auto;
+        text-decoration: none;
+    }
+
+    /* Feedback Banner */
+
+    .feedbackBanner {
+        width: 100%;
+        background-color: #008FB9;
+        z-index: 3;
+        height: 36px;
+    }
+
+    .feedbackBannerLeft {
+        font-family: 'Nunito Sans', sans-serif;
+        width: calc(50% - 24px);
+        line-height: 36px;
+        margin: 0px 12px 0 12px;
+    }
+
+    .feedbackBannerRight {
+        width: auto;
+        line-height: 36px;
+        text-align: right;
+        float:right;
+        margin: 0px 12px 0 12px;
+    }
+
+    /* Feedback Form */
+
+    .feedbackSendButton {
+        width: 320px;
+        margin: 24px auto;
+    }
+
+    .feedbackConfirm {
+        margin: 208px 12px;
+    }
+
+    /* Event Pages */
+
+    .ep_eventContainer {
+        margin: 0 auto!important;
+    }
+
+    .ep_leftColumn {
+        width: calc(100% - 321px);
+    }
+
+    .ep_rightColumn {
+        width: 320px;
+        border-left: solid 1px #D8E3F2;
+        border-bottom: solid 1px #D8E3F2;
+    }  
+
+    .ep_backEventsButton {
+        top: 96px;
+    } 
+
+    .ep_eventTitle {
+        font-size: 1.75em; 
+        margin: 0 24px 0 24px;
+        line-height: 1.29em
+    }
+
+    .ep_bodytext {
+        margin: 0 24px 0 24px;
+    }
+
+    .ep_dateLocationStyle {
+        margin: 0 24px 0 24px;
+    }
+
+    .ep_registerButton {
+        width: calc(66% - 18px);
+    }
+
+    .ep_inviteButton {
+        width: 297px;
+    }
+
+    .ep_locationMap {
+        height: 240px;
+        margin: 0 0 24px 0;
+    }
+
+    .ep_copyLinkInput {
+        width: 296px;
+    }
+
+    /* Discovery Page */
+
+    .dp_iopEventLogo {
+        width: 366px;
+        height: 120px;
+    }
+
+    .dp_inputFieldCont {
+        width: 640px;
+    }
+
+    .dp_tabSwitcherul {
+        width: 320px;
+
+    }
+
+    .dp_tabSwitcherli {
+        width: 160px;
+    }
+
+    .dp_resultsTimeLabel {
+        font-size: 1.75em;
+        line-height: 56px;
+    }
+
+    .dp_eventCard {
+        width: calc(100% - 26px);
+        height: 156px;
+
+    }
+
+    .dp_eventCardImage {
+        width: 372px!important;
+        height: 100%!important;
+    }
+
+    .dp_eventCardContent {
+        width: calc(100% - 396px)!important;
+    }
+
+    .dp_eventCardDateTime {
+        font-size: 1em;
+        width: 40%;
+    }
+
+    .dp_eventCardShortLocation {
+        font-size: 1em;
+        width: 60%;
+    }
+
+    .dp_eventCardTitle {
+        font-size: 1.25em;
+        line-height: 1.25em;
+        height: 77px;
+    }
+
+    .dp_eventCardTagContainer {
+        width: calc(100% - 396px)!important;
+    }
+
+    .dp_eventCardTag {
+        font-size: 1em;
+    }
+
+    /* 404 & 500 pages */
+
+    .fof_imgCont {
+        width: 592px;
+        height: 282px;
+    }
+
+    .fof_img {
+        width: 592px;
+        height: 282px;
+    }
+
+    .fh_imgCont {
+        width: 592px;
+        height: 360px;
+    }
+
+    .fh_img {
+        width: 592px;
+        height: 360px;
+    }
+
+    .fof_backButton {
+        width: 297px;
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+
+    .iopLogo {
+        display: block;
+    }
+
+    .iopLogoMobile {
+        display: none;
+    }
+
+    .dp_inputFieldCont {
+        width: 820px;
+    }
+
+
+    .dp_eventCardDateTime {
+        font-size: 1em;
+        width: 30%!important;
+    }
+
+    .dp_eventCardShortLocation {
+        font-size: 1em;
+        width: 70%!important;
+    }
+
+    .ep_eventContainer {
+        margin: 0 auto!important;
+        border-left: solid 1px #D8E3F2;
+        border-right: solid 1px #D8E3F2;
+    }
+}
+
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+.block block-embedded-external-content h4{
+    margin-top:1em;
+}
+
+#block-events,#block-blognews,#block-contactdetail,#block-views-block-prizes-block-1-2,#block-views-block-grants-block-1
+{
+    margin-top:2em;
+}
+
+
+.dp_pageContainer{
+    max-width:inherit;
+}
+
+#block-views-block-grants-block-1 h3{
+    margin:0px !important;
+    margin-top:0.5em !important;
+}

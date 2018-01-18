@@ -1,0 +1,89 @@
+<?php
+
+use Drupal\Core\Url;
+include_once 'inc/functions.php';
+
+/**
+ * Implements hook_theme().
+ */
+function rhythm_cms_theme() {
+  return [
+    'rhythm_project_next_prev' => [
+      'variables' => ['prev' => '', 'next' => '', 'all_works' => ''],
+    ],
+  ];
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function rhythm_cms_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  switch ($form_id) {
+    case 'user_login_form':
+      $form['#prefix'] = '<div class = "row mt-20"><div class = "col-md-4 col-md-offset-4">';
+      $form['#suffix'] = '</div></div>';
+      $form['name']['#attributes']['placeholder'] = t('Username');
+      $form['pass']['#attributes']['placeholder'] = t('E-mail');
+      unset($form['name']['#description'], $form['pass']['#description']);
+      $url = Url::fromRoute('user.pass');
+      $form['actions']['#prefix'] = '<div class="cf-left-col"><div class="form-tip pt-20">' . Drupal::l(t('Forgot Password?'), $url) . '</div></div><div class="cf-right-col"><div class="align-right pt-10">';
+      $form['actions']['#suffix'] = '</div></div>';
+      break;
+    case 'user_pass':
+      $form['#prefix'] = '<div class = "row mt-20"><div class = "col-md-4 col-md-offset-4">';
+      $form['#suffix'] = '</div></div>';
+      $form['actions']['submit']['#attributes']['class'] = array('btn-full');
+      break;
+    case 'user_register_form':
+      $form['#prefix'] = '<div class = "row mt-20"><div class = "col-md-4 col-md-offset-4">';
+      $form['#suffix'] = '</div></div>';
+      unset($form['account']['name']['#description'], $form['account']['mail']['#description']);
+      $form['actions']['submit']['#attributes']['class'] = array('btn-full');
+      break;
+    case 'search_block_form':
+      $form['keys']['#prefix'] = '<div class = "search-wrap"><span class="search-button button-js animate" type="submit" title="' . t('Start Search') . '"><i class="fa fa-search"></i></span>';
+      $form['keys']['#suffix'] = '</div>';
+      $form['actions']['#attributes']['class'] = array('hidden');
+      break;
+  }
+}
+
+
+function template_preprocess_views_view_nd_portfolio_filter(&$variables) {
+  $view = $variables['view'];
+  $rows = $variables['rows'];
+  $style = $view->style_plugin;
+  $options = $style->options;
+  $group = $view->storage->id() . '-' . $view->current_display;
+  foreach($rows as $id => $row) {
+    array_unshift($row['#theme'], 'views_view_fields__nd_portfolio_filter');
+    $rows[$id]['content'] = render($row);
+  }
+  $variables['rows'] = $rows;
+
+  $taxonomies = array();
+
+  foreach ($variables['view']->result as $id => $result) {
+    if ($taxonomy = $result->_entity->get($options['field_filter'])->getValue()) {
+      $row_taxonomies = '';
+      foreach($taxonomy as $term) {
+        if(!isset($taxonomies[$term['target_id']])) {
+          $term_name = \Drupal\taxonomy\Entity\Term::load($term['target_id'])->get('name')->value;
+          $taxonomies[$term['target_id']] = ['name' => $term_name, 'id' => $group . '-' . $term['target_id']];
+        }
+        else {
+          $term_name = $taxonomies[$term['target_id']]['name'];
+        }
+        $row_taxonomies .= $group . '-' . $term['target_id'] . ' ';
+      }
+      $variables['rows'][$id]['taxonomies'] = $row_taxonomies;
+    }
+  }
+  //dpm($taxonomies);
+  //dpm($rows);
+
+  $options['taxonomies'] = $taxonomies;
+
+  // Update options for twig.
+  $variables['options'] = $options;
+}
