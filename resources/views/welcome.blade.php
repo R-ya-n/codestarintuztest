@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
       <meta charset="utf-8">
@@ -62,7 +62,7 @@
         </div>
 
         <footer>
-            <p class="footer-contents">Designed and developed with <a href="https://aws.amazon.com/careers/devtools-jobs/">♥</a> in Seattle.</p>
+            <p class="footer-contents">Designed and developed with <a href="https://aws.amazon.com/careers/devtools-jobs/">♥</a> in Belfast.</p>
         </footer>
         <script type="text/javascript" src="{{ asset('js/set-background.js') }}"></script>
     </body>
